@@ -1,0 +1,7 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+$customLink = $block->getLayout()->getBlock('custom-account-link');
+if ($customLink) {
+    echo $customLink->toHtml();
+}
+?>
